@@ -1,0 +1,36 @@
+baseurl = "https://maxknee.github.io/"
+languageCode = "en-US"
+title = "Max Knee"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-3517537-10"
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "Max Knee"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[social]
+  Github        = "maxknee"
+  Email         = "maxknee@gmail.com"
+  LinkedIn      = "maxknee"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 200
+  url = "/resume/"
